@@ -1,0 +1,83 @@
+/* reset styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	perspective: 2000px;
+	transform-style: preserve-3d;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  }
+  
+  /* body styles */
+  body {
+	background: linear-gradient(to right, #ff758c, #ff7eb3);
+}
+  
+  /* container styles */
+  .container {
+	
+    transition: background-color 2.8s ;
+
+	background-color: rgba(255, 255, 255, 0.7);
+	margin: 100px auto;
+	padding: 20px;
+	width: 80%;
+	max-width: 600px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	opacity: 0.9;
+	transform: rotateY(-15deg);
+  }
+  
+  /* title styles */
+  .title {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 30px;
+	color: #3c3c3c;
+	text-shadow: 1px 1px 2px #888;
+  }
+  
+  /* card styles */
+  .card {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	text-align: left;
+	opacity: 0.8;
+  }
+  
+  /* card title styles */
+  .card-title {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #3c3c3c;
+	text-shadow: 1px 1px 2px #888;
+  }
+  
+  /* card text styles */
+  .card-text {
+	color: #4c4c4c;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	opacity: 0.8;
+	text-shadow: 1px 1px 2px #888;
+  }
+  
+  .card:hover {
+	transform: rotateY(2deg);
+	box-shadow: 4px 4px 4px rgba(10, 10, 10, 0.4);
+	transition: box-shadow 1s ease-in-out; /* changed transition duration */
+  }
+  
+  .card:not(:hover) {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	transition-delay: 0.1s; /* add delay before box-shadow disappears */
+	transition: box-shadow 1s ease-in-out; /* changed transition duration */
+
+  }
