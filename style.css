@@ -89,6 +89,7 @@
   }
   
   .card-text {
+	margin: 150px auto;
 	color: #3A3238;
 	font-size: 16px;
 	line-height: 1.5;
