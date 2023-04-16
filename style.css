@@ -7,6 +7,8 @@
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   }
   
+
+
   body {
 	background: radial-gradient(circle farthest-side at 50% 50%, #F8B195 0%, #F67280 50%, #c06d84 100%);
   }
@@ -147,3 +149,6 @@
 	color: #fff;
   }
   
+.wallpaper {
+
+}
