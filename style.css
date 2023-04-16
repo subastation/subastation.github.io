@@ -9,17 +9,17 @@
   
   body {
 	background: radial-gradient(circle farthest-side at 50% 50%, #F8B195 0%, #F67280 50%, #c06d84 100%);
-	z-index: -1;
   }
   
   .container {
 	width: 80%;
 	max-width: 600px;
-	margin: 100px auto;
+	margin: 150px auto;
 	margin-right: auto;
-	margin-top: 150;
-	padding: 20px;
-	border-radius: 10px;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	padding: 15px;
+	border-radius: 15px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 	text-align: center;
 	opacity: 0.9;
@@ -133,5 +133,17 @@
   a:active {
 	transform: translateY(1px);
 	box-shadow: none;
+  }
+  
+  .facts-bar {
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #05060980;
+	display: flex;
+	justify-content: center;
+	font-size: 25px;
+	color: #fff;
   }
   
